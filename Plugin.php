@@ -1,9 +1,8 @@
 <?php
 
-namespace Kanboard\Plugin\PluginNameExampleStudlyCaps;
+namespace Kanboard\Plugin\TagiStartedDateOnCard;
 
 use Kanboard\Core\Plugin\Base;
-use Kanboard\Core\Translator;
 // use Kanboard\Plugin\PluginNameExampleStudlyCaps\AgeHelper;  // Helper Class and Filename should be exact
 // use Kanboard\Helper;  // Add core Helper for using forms etc. inside external templates
 
@@ -11,11 +10,7 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        // Template Override
-        // $this->template->setTemplateOverride('action/index', 'pluginNameExampleCamelCase:action/index');
-
-        // Views - Template Hook
-        $this->template->hook->attach('template:board:task:footer', 'TagiStartedDateOnCard:project_header/actions');
+        $this->template->hook->attach('template:board:task:footer', 'TagiStartedDateOnCard:board/task_footer_started_date');
     }
 
     public function getPluginName()
