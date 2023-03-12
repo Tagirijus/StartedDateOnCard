@@ -1,6 +1,14 @@
 # Changelog
 
 
+## v1.1
+
+### What's Changed
+
+_(most recent changes are listed on top):_
+- Date without time now
+
+
 ## v1.0
 
 ### What's Changed
