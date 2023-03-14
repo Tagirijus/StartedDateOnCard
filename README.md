@@ -2,7 +2,7 @@
 
 #### _Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")_
 
-This plugin is simply for showing a small visual hint on a card that the task has a started date.
+This plugin is simply for showing an icon with the started date on a card.
 
 
 Compatibility
@@ -48,7 +48,6 @@ Translations
 ------------
 
 - _Contributors welcome_
-- _Starter template available_
 
 Authors & Contributors
 ----------------------
