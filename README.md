@@ -5,6 +5,14 @@
 This plugin is simply for showing an icon with the started date on a card.
 
 
+Screenshots
+-------------
+
+**Card example**
+
+![TagiStartedDateOnCard card example](../master/Screenshots/TagiStartedDateOnCard_card_example.png)
+
+
 Compatibility
 -------------
 
