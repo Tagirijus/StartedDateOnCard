@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\TagiKPStartedDateOnCard;
+namespace Kanboard\Plugin\StartedDateOnCard;
 
 use Kanboard\Core\Plugin\Base;
 // use Kanboard\Plugin\PluginNameExampleStudlyCaps\AgeHelper;  // Helper Class and Filename should be exact
@@ -10,14 +10,14 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->template->hook->attach('template:board:task:footer', 'TagiKPStartedDateOnCard:board/task_footer_started_date');
+        $this->template->hook->attach('template:board:task:footer', 'StartedDateOnCard:board/task_footer_started_date');
     }
 
     public function getPluginName()
     {
         // Plugin Name MUST be identical to namespace for Plugin Directory to detect updated versions
         // Do not translate the plugin name here
-        return 'TagiKPStartedDateOnCard';
+        return 'StartedDateOnCard';
     }
 
     public function getPluginDescription()
@@ -32,7 +32,7 @@ class Plugin extends Base
 
     public function getPluginVersion()
     {
-        return '1.2.0';
+        return '1.3.0';
     }
 
     public function getCompatibleVersion()
@@ -46,6 +46,6 @@ class Plugin extends Base
 
     public function getPluginHomepage()
     {
-        return 'https://github.com/Tagirijus/TagiKPStartedDateOnCard';
+        return 'https://github.com/Tagirijus/StartedDateOnCard';
     }
 }

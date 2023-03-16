@@ -1,4 +1,4 @@
-# TagiKPStartedDateOnCard
+# StartedDateOnCard
 
 #### _Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")_
 
@@ -10,7 +10,7 @@ Screenshots
 
 **Card example**
 
-![TagiStartedDateOnCard card example](../master/Screenshots/TagiStartedDateOnCard_card_example.png)
+![StartedDateOnCard card example](../master/Screenshots/StartedDateOnCard_card_example.png)
 
 
 Compatibility
@@ -35,7 +35,7 @@ Installation
 ------------
 
 1. Go into Kanboards `plugins/` folder
-2. `git clone https://github.com/Tagirijus/TagiKPStartedDateOnCard`
+2. `git clone https://github.com/Tagirijus/StartedDateOnCard`
 
 
 Authors & Contributors
